@@ -17,7 +17,6 @@ class Recatangulo()
 		void perimetr();
 		void area();
 	
-	
 }
 
 Rectangulo::Rectangulo(float opc_largo, float opc_ancho)
@@ -35,7 +34,14 @@ void Rectangulo::perimetro()
     cout<<"El perimetro es"<<opc_perimetro<<endl;
 }
 
+void Rectangulo::area()
+{
+    float opc_area;
 
+    opc_area = largo * ancho;
+
+    cout<<"El area es: "<<apc_area<<endl;
+}
 
 int main(){
 	
