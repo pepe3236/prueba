@@ -1,0 +1,44 @@
+#include <iostream>
+#include <conio.h>
+#include <stdlib.h>
+
+using namespace std;
+
+class cuadrado
+
+{
+	//Atributos//
+	private:
+	float a;
+	float b;
+	
+	public:
+	float resultado;
+	void area();
+	
+	
+};
+
+void cuadrado::area()
+{
+	cout<<"Digite la base ";
+	cin>>a;
+	
+	cout<<"Digite la altura ";
+	cin>>b;
+	
+	resultado = a * b;
+	
+	cout<<"El area del cuadrado es "<<resultado;
+	
+};
+
+int main(){
+	
+	cuadrado a;
+	a.area();
+	
+	
+	getch();
+	return 0;
+}
