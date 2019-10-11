@@ -1,10 +1,10 @@
 #include <iostream>
 #include <conio.h>
-#include <stdio>
+#include <stdlib.h>
 
 using namespace std;
 
-class Recatangulo()
+class Rectangulo
 {
 	
 	//Atributos
@@ -14,16 +14,16 @@ class Recatangulo()
 		
 	//Metodos
 	public:
-		void perimetr();
+		void perimetro();
 		void area();
 	
-}
+};
 
 Rectangulo::Rectangulo(float opc_largo, float opc_ancho)
 {
     largo = opc_largo;
     ancho = opc_ancho;
-}
+};
 
 void Rectangulo::perimetro()
 {
@@ -32,7 +32,7 @@ void Rectangulo::perimetro()
     opc_perimetro = (2 * largo) + (2 * ancho);
 
     cout<<"El perimetro es"<<opc_perimetro<<endl;
-}
+};
 
 void Rectangulo::area()
 {
@@ -40,8 +40,8 @@ void Rectangulo::area()
 
     opc_area = largo * ancho;
 
-    cout<<"El area es: "<<apc_area<<endl;
-}
+    cout<<"El area es: "<<opc_area<<endl;
+};
 
 int main()
 {
