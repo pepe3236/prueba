@@ -9,12 +9,12 @@ class cuadrado
 {
 	//Atributos//
 	private:
-	float a;
-	float b;
+	    float a;
+	    float b;
 	
 	public:
-	float resultado;
-	void area();
+	    float resultado;
+	    void area();
 	
 	
 };
@@ -39,6 +39,6 @@ int main(){
 	a.area();
 	
 	
-	getch();
-	return 0;
+	    getch();
+	    return 0;
 }
