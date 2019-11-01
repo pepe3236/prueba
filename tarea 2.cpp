@@ -6,20 +6,20 @@ using namespace std;
 class Date
 {
 	private:
-		string day[2],  month[2], year[4];
+		char day[2],  month[2], year[4];
 	public:
-		Date(string, string, string);
+		Date(char, char, char);
 		void show();
 
 };
 
-Date::Date(string _day,string _month, string _year)
+Date::Date(char _day,char _month, char _year)
 {
     day[2] = _day[2];
     month[2] = _month[2];
     year[4] = _year[4];
 
-}
+};
 
 
 
@@ -47,7 +47,7 @@ void Date::show()
 
 int main(){
 
-	Date today(string day ,string month ,string year);
+	Date today(char day, char month ,char year);
 	today.show();
 	
 	getch();
